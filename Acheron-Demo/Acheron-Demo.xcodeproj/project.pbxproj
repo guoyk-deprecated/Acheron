@@ -77,6 +77,7 @@
 		69C0EFA01A0DED7600A01FBF /* Acheron-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				69C0EFC31A0DEDD900A01FBF /* Acheron */,
 				69C0EFA31A0DED7600A01FBF /* AppDelegate.swift */,
 				69C0EFA51A0DED7600A01FBF /* ViewController.swift */,
 				69C0EFA71A0DED7600A01FBF /* Main.storyboard */,
@@ -110,6 +111,38 @@
 				69C0EFB81A0DED7600A01FBF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69C0EFC31A0DEDD900A01FBF /* Acheron */ = {
+			isa = PBXGroup;
+			children = (
+				69C0EFC81A0DEE3700A01FBF /* HTTP */,
+				69C0EFC71A0DEE3000A01FBF /* Model */,
+				69C0EFC61A0DEDFC00A01FBF /* Cache */,
+			);
+			name = Acheron;
+			path = ../../Acheron;
+			sourceTree = "<group>";
+		};
+		69C0EFC61A0DEDFC00A01FBF /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		69C0EFC71A0DEE3000A01FBF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		69C0EFC81A0DEE3700A01FBF /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HTTP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
