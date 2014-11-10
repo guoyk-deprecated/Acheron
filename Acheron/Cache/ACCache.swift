@@ -21,10 +21,10 @@ var _sharedACCache : ACCache? = nil
 
 class ACCache {
   
-  var name        : String
-  var queue       : dispatch_queue_t
-  var diskCache   : ACDiskCache
-  var memoryCache : ACMemoryCache
+  let name        : String
+  let queue       : dispatch_queue_t
+  let diskCache   : ACDiskCache
+  let memoryCache : ACMemoryCache
   
   class func sharedCache() -> ACCache {
     if _sharedACCache == nil {
@@ -44,7 +44,7 @@ class ACCache {
   
   init(name: String, rootPath: String) {
     self.name = name
-    let queueName = "\(ACCachePrefix).\(name)" as NSString
+    let queueName = "\(ACCachePrefix).\(name).\(CACurrentMediaTime())" as NSString
     self.queue = dispatch_queue_create(queueName.UTF8String, DISPATCH_QUEUE_CONCURRENT)
     self.diskCache = ACDiskCache(name: self.name, rootPath: rootPath)
     self.memoryCache = ACMemoryCache()

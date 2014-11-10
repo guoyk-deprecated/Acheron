@@ -11,38 +11,44 @@ import UIKit
 typealias ACMemoryCacheBlock        = (cache: ACMemoryCache) -> Void
 typealias ACMemoryCacheObjectBlock  = (cache: ACMemoryCache, key: String, object: AnyObject?) -> Void
 
-class ACMemoryCache: NSObject {
+let ACMemoryCachePrefix = "io.yanke.acmemorycache"
+
+var _sharedACMemoryCache : ACMemoryCache? = nil
+
+class ACMemoryCache {
   
-  var queue : dispatch_queue_t?
+  let queue : dispatch_queue_t
   
-  var totoalCost : UInt?
+  let dictionary  = NSMutableDictionary()
+  let costs       = NSMutableDictionary()
+  let dates       = NSMutableDictionary()
   
-  var costLimit : UInt?
+  var totoalCost  : UInt = 0
+  var costLimit   : UInt  = 0
+  var ageLimit    : NSTimeInterval = 0
   
-  var ageLimit : NSTimeInterval?
+  var removeAllObjectsOnMemoryWarning       : Bool = false
+  var removeAllObjectsOnEnteringBackground  : Bool = false
   
-  var removeAllObjectsOnMemoryWarning : Bool = false
-  
-  var removeAllObjectsOnEnteringBackground : Bool = false
-  
-  var willAddObjectBlock : ACMemoryCacheObjectBlock?
-  
-  var willRemoveObjectBlock : ACMemoryCacheObjectBlock?
-  
+  var willAddObjectBlock        : ACMemoryCacheObjectBlock?
+  var willRemoveObjectBlock     : ACMemoryCacheObjectBlock?
   var willRemoveAllObjectsBlock : ACMemoryCacheBlock?
-  
-  var didAddObjectBlock : ACMemoryCacheObjectBlock?
-  
-  var didRemoveObjectBlock : ACMemoryCacheObjectBlock?
-  
-  var didRemoveAllObjectsBlock : ACMemoryCacheBlock?
-  
-  var didReceiveMemoryWarningBlock : ACMemoryCacheBlock?
-  
-  var didEnterBackgroundBlock : ACMemoryCacheBlock?
+  var didAddObjectBlock         : ACMemoryCacheObjectBlock?
+  var didRemoveObjectBlock      : ACMemoryCacheObjectBlock?
+  var didRemoveAllObjectsBlock  : ACMemoryCacheBlock?
+  var didReceiveMemoryWarningBlock  : ACMemoryCacheBlock?
+  var didEnterBackgroundBlock       : ACMemoryCacheBlock?
   
   class func sharedCache() -> ACMemoryCache {
-    fatalError("Not finished")
+    if _sharedACMemoryCache == nil {
+      _sharedACMemoryCache = ACMemoryCache()
+    }
+    return _sharedACMemoryCache!
+  }
+  
+  init() {
+    let queueName = "\(ACMemoryCachePrefix).\(CACurrentMediaTime())"
+    self.queue = dispatch_queue_create(queueName, DISPATCH_QUEUE_CONCURRENT)
   }
   
   func objectForKey(key: String, block: ACMemoryCacheObjectBlock) {
