@@ -9,7 +9,7 @@
 import UIKit
 
 typealias ACMemoryCacheBlock        = (cache: ACMemoryCache) -> Void
-typealias ACMemoryCacheObjectBlock  = (cache: ACMemoryCache, key: String, object: AnyObject) -> Void
+typealias ACMemoryCacheObjectBlock  = (cache: ACMemoryCache, key: String, object: AnyObject?) -> Void
 
 class ACMemoryCache: NSObject {
   
@@ -48,7 +48,7 @@ class ACMemoryCache: NSObject {
   func objectForKey(key: String, block: ACMemoryCacheObjectBlock) {
   }
   
-  func setObject(object: AnyObject, forKey key: String, block: ACMemoryCacheObjectBlock) {
+  func setObject(object: AnyObject, forKey key: String, block: ACMemoryCacheObjectBlock?) {
   }
   
   func setObject(object: AnyObject, forKey key: String, withCost cost: UInt, block: ACMemoryCacheObjectBlock) {
