@@ -9,7 +9,7 @@
 import UIKit
 
 typealias ACDiskCacheBlock          = (cache: ACDiskCache) -> Void
-typealias ACDiskCacheObjectBlock    = (cache: ACDiskCache, key: String, object: NSCoding, fileURL: NSURL) -> Void
+typealias ACDiskCacheObjectBlock    = (cache: ACDiskCache, key: String, object: NSCoding?, fileURL: NSURL) -> Void
 
 class ACDiskCache: NSObject {
   

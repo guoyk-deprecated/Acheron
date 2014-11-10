@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		698A97F71A0F4B5E00B2C7AD /* Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A97F61A0F4B5E00B2C7AD /* Acheron.swift */; };
+		698A97FA1A0F4B9900B2C7AD /* UIKit+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A97F91A0F4B9900B2C7AD /* UIKit+Acheron.swift */; };
+		698A97FF1A0F4C0900B2C7AD /* Foundation+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A97FE1A0F4C0900B2C7AD /* Foundation+Acheron.swift */; };
+		698A98031A0F4D2A00B2C7AD /* ACHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A98021A0F4D2A00B2C7AD /* ACHTTP.swift */; };
 		69C0EFA41A0DED7600A01FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFA31A0DED7600A01FBF /* AppDelegate.swift */; };
 		69C0EFA61A0DED7600A01FBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFA51A0DED7600A01FBF /* ViewController.swift */; };
 		69C0EFA91A0DED7600A01FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C0EFA71A0DED7600A01FBF /* Main.storyboard */; };
 		69C0EFAB1A0DED7600A01FBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C0EFAA1A0DED7600A01FBF /* Images.xcassets */; };
 		69C0EFAE1A0DED7600A01FBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C0EFAC1A0DED7600A01FBF /* LaunchScreen.xib */; };
 		69C0EFBA1A0DED7600A01FBF /* Acheron_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFB91A0DED7600A01FBF /* Acheron_DemoTests.swift */; };
+		69C0EFD01A0DF28B00A01FBF /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFCB1A0DF28B00A01FBF /* TMCache.m */; };
+		69C0EFD11A0DF28B00A01FBF /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFCD1A0DF28B00A01FBF /* TMDiskCache.m */; };
+		69C0EFD21A0DF28B00A01FBF /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFCF1A0DF28B00A01FBF /* TMMemoryCache.m */; };
+		69C0EFD41A0DF2D900A01FBF /* ACCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFD31A0DF2D900A01FBF /* ACCache.swift */; };
+		69C0EFD61A0DF2E800A01FBF /* ACDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFD51A0DF2E800A01FBF /* ACDiskCache.swift */; };
+		69C0EFD81A0DF2F900A01FBF /* ACMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFD71A0DF2F900A01FBF /* ACMemoryCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		698A97F61A0F4B5E00B2C7AD /* Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acheron.swift; sourceTree = "<group>"; };
+		698A97F91A0F4B9900B2C7AD /* UIKit+Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Acheron.swift"; sourceTree = "<group>"; };
+		698A97FE1A0F4C0900B2C7AD /* Foundation+Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Acheron.swift"; sourceTree = "<group>"; };
+		698A98021A0F4D2A00B2C7AD /* ACHTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACHTTP.swift; sourceTree = "<group>"; };
 		69C0EF9E1A0DED7600A01FBF /* Acheron-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acheron-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C0EFA21A0DED7600A01FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69C0EFA31A0DED7600A01FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +50,15 @@
 		69C0EFB31A0DED7600A01FBF /* Acheron-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acheron-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C0EFB81A0DED7600A01FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69C0EFB91A0DED7600A01FBF /* Acheron_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acheron_DemoTests.swift; sourceTree = "<group>"; };
+		69C0EFCA1A0DF28B00A01FBF /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCache.h; sourceTree = "<group>"; };
+		69C0EFCB1A0DF28B00A01FBF /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCache.m; sourceTree = "<group>"; };
+		69C0EFCC1A0DF28B00A01FBF /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDiskCache.h; sourceTree = "<group>"; };
+		69C0EFCD1A0DF28B00A01FBF /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDiskCache.m; sourceTree = "<group>"; };
+		69C0EFCE1A0DF28B00A01FBF /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMemoryCache.h; sourceTree = "<group>"; };
+		69C0EFCF1A0DF28B00A01FBF /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMemoryCache.m; sourceTree = "<group>"; };
+		69C0EFD31A0DF2D900A01FBF /* ACCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCache.swift; sourceTree = "<group>"; };
+		69C0EFD51A0DF2E800A01FBF /* ACDiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACDiskCache.swift; sourceTree = "<group>"; };
+		69C0EFD71A0DF2F900A01FBF /* ACMemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACMemoryCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		698A97F81A0F4B7C00B2C7AD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				698A97F91A0F4B9900B2C7AD /* UIKit+Acheron.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		698A97FB1A0F4BB000B2C7AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				698A97FE1A0F4C0900B2C7AD /* Foundation+Acheron.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		69C0EF951A0DED7600A01FBF = {
 			isa = PBXGroup;
 			children = (
@@ -116,9 +155,12 @@
 		69C0EFC31A0DEDD900A01FBF /* Acheron */ = {
 			isa = PBXGroup;
 			children = (
+				698A97FB1A0F4BB000B2C7AD /* Common */,
+				698A97F81A0F4B7C00B2C7AD /* UI */,
 				69C0EFC81A0DEE3700A01FBF /* HTTP */,
 				69C0EFC71A0DEE3000A01FBF /* Model */,
 				69C0EFC61A0DEDFC00A01FBF /* Cache */,
+				698A97F61A0F4B5E00B2C7AD /* Acheron.swift */,
 			);
 			name = Acheron;
 			path = ../../Acheron;
@@ -127,6 +169,10 @@
 		69C0EFC61A0DEDFC00A01FBF /* Cache */ = {
 			isa = PBXGroup;
 			children = (
+				69C0EFC91A0DF28B00A01FBF /* TMCache */,
+				69C0EFD31A0DF2D900A01FBF /* ACCache.swift */,
+				69C0EFD51A0DF2E800A01FBF /* ACDiskCache.swift */,
+				69C0EFD71A0DF2F900A01FBF /* ACMemoryCache.swift */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -141,8 +187,23 @@
 		69C0EFC81A0DEE3700A01FBF /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
+				698A98021A0F4D2A00B2C7AD /* ACHTTP.swift */,
 			);
 			path = HTTP;
+			sourceTree = "<group>";
+		};
+		69C0EFC91A0DF28B00A01FBF /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				69C0EFCA1A0DF28B00A01FBF /* TMCache.h */,
+				69C0EFCB1A0DF28B00A01FBF /* TMCache.m */,
+				69C0EFCC1A0DF28B00A01FBF /* TMDiskCache.h */,
+				69C0EFCD1A0DF28B00A01FBF /* TMDiskCache.m */,
+				69C0EFCE1A0DF28B00A01FBF /* TMMemoryCache.h */,
+				69C0EFCF1A0DF28B00A01FBF /* TMMemoryCache.m */,
+			);
+			name = TMCache;
+			path = ../../../TMCache/TMCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C0EFD41A0DF2D900A01FBF /* ACCache.swift in Sources */,
+				69C0EFD61A0DF2E800A01FBF /* ACDiskCache.swift in Sources */,
+				698A98031A0F4D2A00B2C7AD /* ACHTTP.swift in Sources */,
+				69C0EFD11A0DF28B00A01FBF /* TMDiskCache.m in Sources */,
+				69C0EFD21A0DF28B00A01FBF /* TMMemoryCache.m in Sources */,
 				69C0EFA61A0DED7600A01FBF /* ViewController.swift in Sources */,
+				69C0EFD01A0DF28B00A01FBF /* TMCache.m in Sources */,
+				698A97FF1A0F4C0900B2C7AD /* Foundation+Acheron.swift in Sources */,
 				69C0EFA41A0DED7600A01FBF /* AppDelegate.swift in Sources */,
+				698A97F71A0F4B5E00B2C7AD /* Acheron.swift in Sources */,
+				69C0EFD81A0DF2F900A01FBF /* ACMemoryCache.swift in Sources */,
+				698A97FA1A0F4B9900B2C7AD /* UIKit+Acheron.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +509,7 @@
 				69C0EFBF1A0DED7600A01FBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69C0EFC01A0DED7600A01FBF /* Build configuration list for PBXNativeTarget "Acheron-DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +518,7 @@
 				69C0EFC21A0DED7600A01FBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

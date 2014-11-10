@@ -48,10 +48,10 @@ class ACMemoryCache: NSObject {
   func objectForKey(key: String, block: ACMemoryCacheObjectBlock) {
   }
   
-  func setObject(object: AnyObject, forKey key: String, block: ACMemoryCacheObjectBlock?) {
+  func setObject(object: AnyObject?, forKey key: String, block: ACMemoryCacheObjectBlock?) {
   }
   
-  func setObject(object: AnyObject, forKey key: String, withCost cost: UInt, block: ACMemoryCacheObjectBlock) {
+  func setObject(object: AnyObject?, forKey key: String, withCost cost: UInt, block: ACMemoryCacheObjectBlock) {
   }
   
   func removeObjectForKey(key: String, block: ACMemoryCacheObjectBlock) {
