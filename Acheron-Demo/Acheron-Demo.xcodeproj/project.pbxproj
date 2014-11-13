@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69201A331A145E4A00DAF4DE /* ACViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A321A145E4A00DAF4DE /* ACViewController.swift */; };
+		69201A351A145E7300DAF4DE /* ACView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A341A145E7300DAF4DE /* ACView.swift */; };
+		69201A381A145EFF00DAF4DE /* ACAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A371A145EFF00DAF4DE /* ACAlertView.swift */; };
+		69201A3A1A145F4500DAF4DE /* UIColor+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A391A145F4500DAF4DE /* UIColor+Acheron.swift */; };
+		69201A3F1A14601B00DAF4DE /* NSArray+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A3E1A14601B00DAF4DE /* NSArray+Acheron.swift */; };
+		69201A411A14603100DAF4DE /* NSHTTPCookieStorage+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A401A14603100DAF4DE /* NSHTTPCookieStorage+Acheron.swift */; };
+		69201A441A14607C00DAF4DE /* ACHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A431A14607C00DAF4DE /* ACHTTP.swift */; };
+		69201A491A14611600DAF4DE /* ACCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A461A14611600DAF4DE /* ACCache.swift */; };
+		69201A4A1A14611600DAF4DE /* ACDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A471A14611600DAF4DE /* ACDiskCache.swift */; };
+		69201A4B1A14611600DAF4DE /* ACMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69201A481A14611600DAF4DE /* ACMemoryCache.swift */; };
 		698A97F71A0F4B5E00B2C7AD /* Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A97F61A0F4B5E00B2C7AD /* Acheron.swift */; };
-		698A97FA1A0F4B9900B2C7AD /* UIKit+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A97F91A0F4B9900B2C7AD /* UIKit+Acheron.swift */; };
-		698A97FF1A0F4C0900B2C7AD /* Foundation+Acheron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A97FE1A0F4C0900B2C7AD /* Foundation+Acheron.swift */; };
-		698A98031A0F4D2A00B2C7AD /* ACHTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698A98021A0F4D2A00B2C7AD /* ACHTTP.swift */; };
 		69C0EFA41A0DED7600A01FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFA31A0DED7600A01FBF /* AppDelegate.swift */; };
 		69C0EFA61A0DED7600A01FBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFA51A0DED7600A01FBF /* ViewController.swift */; };
 		69C0EFA91A0DED7600A01FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C0EFA71A0DED7600A01FBF /* Main.storyboard */; };
 		69C0EFAB1A0DED7600A01FBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C0EFAA1A0DED7600A01FBF /* Images.xcassets */; };
 		69C0EFAE1A0DED7600A01FBF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C0EFAC1A0DED7600A01FBF /* LaunchScreen.xib */; };
 		69C0EFBA1A0DED7600A01FBF /* Acheron_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFB91A0DED7600A01FBF /* Acheron_DemoTests.swift */; };
-		69C0EFD01A0DF28B00A01FBF /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFCB1A0DF28B00A01FBF /* TMCache.m */; };
-		69C0EFD11A0DF28B00A01FBF /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFCD1A0DF28B00A01FBF /* TMDiskCache.m */; };
-		69C0EFD21A0DF28B00A01FBF /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFCF1A0DF28B00A01FBF /* TMMemoryCache.m */; };
-		69C0EFD41A0DF2D900A01FBF /* ACCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFD31A0DF2D900A01FBF /* ACCache.swift */; };
-		69C0EFD61A0DF2E800A01FBF /* ACDiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFD51A0DF2E800A01FBF /* ACDiskCache.swift */; };
-		69C0EFD81A0DF2F900A01FBF /* ACMemoryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0EFD71A0DF2F900A01FBF /* ACMemoryCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69201A321A145E4A00DAF4DE /* ACViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACViewController.swift; sourceTree = "<group>"; };
+		69201A341A145E7300DAF4DE /* ACView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACView.swift; sourceTree = "<group>"; };
+		69201A371A145EFF00DAF4DE /* ACAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACAlertView.swift; sourceTree = "<group>"; };
+		69201A391A145F4500DAF4DE /* UIColor+Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Acheron.swift"; sourceTree = "<group>"; };
+		69201A3E1A14601B00DAF4DE /* NSArray+Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Acheron.swift"; sourceTree = "<group>"; };
+		69201A401A14603100DAF4DE /* NSHTTPCookieStorage+Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSHTTPCookieStorage+Acheron.swift"; sourceTree = "<group>"; };
+		69201A431A14607C00DAF4DE /* ACHTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACHTTP.swift; sourceTree = "<group>"; };
+		69201A461A14611600DAF4DE /* ACCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCache.swift; sourceTree = "<group>"; };
+		69201A471A14611600DAF4DE /* ACDiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACDiskCache.swift; sourceTree = "<group>"; };
+		69201A481A14611600DAF4DE /* ACMemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACMemoryCache.swift; sourceTree = "<group>"; };
 		698A97F61A0F4B5E00B2C7AD /* Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acheron.swift; sourceTree = "<group>"; };
-		698A97F91A0F4B9900B2C7AD /* UIKit+Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Acheron.swift"; sourceTree = "<group>"; };
-		698A97FE1A0F4C0900B2C7AD /* Foundation+Acheron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Acheron.swift"; sourceTree = "<group>"; };
-		698A98021A0F4D2A00B2C7AD /* ACHTTP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACHTTP.swift; sourceTree = "<group>"; };
 		69C0EF9E1A0DED7600A01FBF /* Acheron-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Acheron-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C0EFA21A0DED7600A01FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69C0EFA31A0DED7600A01FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,15 +58,6 @@
 		69C0EFB31A0DED7600A01FBF /* Acheron-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Acheron-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C0EFB81A0DED7600A01FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69C0EFB91A0DED7600A01FBF /* Acheron_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acheron_DemoTests.swift; sourceTree = "<group>"; };
-		69C0EFCA1A0DF28B00A01FBF /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCache.h; sourceTree = "<group>"; };
-		69C0EFCB1A0DF28B00A01FBF /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCache.m; sourceTree = "<group>"; };
-		69C0EFCC1A0DF28B00A01FBF /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDiskCache.h; sourceTree = "<group>"; };
-		69C0EFCD1A0DF28B00A01FBF /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDiskCache.m; sourceTree = "<group>"; };
-		69C0EFCE1A0DF28B00A01FBF /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMemoryCache.h; sourceTree = "<group>"; };
-		69C0EFCF1A0DF28B00A01FBF /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMemoryCache.m; sourceTree = "<group>"; };
-		69C0EFD31A0DF2D900A01FBF /* ACCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACCache.swift; sourceTree = "<group>"; };
-		69C0EFD51A0DF2E800A01FBF /* ACDiskCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACDiskCache.swift; sourceTree = "<group>"; };
-		69C0EFD71A0DF2F900A01FBF /* ACMemoryCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACMemoryCache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +78,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69201A2C1A145C0800DAF4DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				69201A3E1A14601B00DAF4DE /* NSArray+Acheron.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		69201A2D1A145C2700DAF4DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				69201A391A145F4500DAF4DE /* UIColor+Acheron.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		69201A301A145DDB00DAF4DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				69201A321A145E4A00DAF4DE /* ACViewController.swift */,
+				69201A341A145E7300DAF4DE /* ACView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		69201A311A145DF300DAF4DE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		69201A361A145EA000DAF4DE /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				69201A371A145EFF00DAF4DE /* ACAlertView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		69201A3D1A145FEE00DAF4DE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				69201A401A14603100DAF4DE /* NSHTTPCookieStorage+Acheron.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		69201A421A14603E00DAF4DE /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				69201A431A14607C00DAF4DE /* ACHTTP.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		69201A451A1460C800DAF4DE /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				69201A461A14611600DAF4DE /* ACCache.swift */,
+				69201A471A14611600DAF4DE /* ACDiskCache.swift */,
+				69201A481A14611600DAF4DE /* ACMemoryCache.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		698A97F81A0F4B7C00B2C7AD /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				698A97F91A0F4B9900B2C7AD /* UIKit+Acheron.swift */,
+				69201A361A145EA000DAF4DE /* Component */,
+				69201A301A145DDB00DAF4DE /* Base */,
+				69201A2D1A145C2700DAF4DE /* Extension */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -90,7 +157,9 @@
 		698A97FB1A0F4BB000B2C7AD /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				698A97FE1A0F4C0900B2C7AD /* Foundation+Acheron.swift */,
+				69201A451A1460C800DAF4DE /* Component */,
+				69201A311A145DF300DAF4DE /* Base */,
+				69201A2C1A145C0800DAF4DE /* Extension */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -159,22 +228,10 @@
 				698A97F81A0F4B7C00B2C7AD /* UI */,
 				69C0EFC81A0DEE3700A01FBF /* HTTP */,
 				69C0EFC71A0DEE3000A01FBF /* Model */,
-				69C0EFC61A0DEDFC00A01FBF /* Cache */,
 				698A97F61A0F4B5E00B2C7AD /* Acheron.swift */,
 			);
 			name = Acheron;
 			path = ../../Acheron;
-			sourceTree = "<group>";
-		};
-		69C0EFC61A0DEDFC00A01FBF /* Cache */ = {
-			isa = PBXGroup;
-			children = (
-				69C0EFC91A0DF28B00A01FBF /* TMCache */,
-				69C0EFD31A0DF2D900A01FBF /* ACCache.swift */,
-				69C0EFD51A0DF2E800A01FBF /* ACDiskCache.swift */,
-				69C0EFD71A0DF2F900A01FBF /* ACMemoryCache.swift */,
-			);
-			path = Cache;
 			sourceTree = "<group>";
 		};
 		69C0EFC71A0DEE3000A01FBF /* Model */ = {
@@ -187,23 +244,10 @@
 		69C0EFC81A0DEE3700A01FBF /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
-				698A98021A0F4D2A00B2C7AD /* ACHTTP.swift */,
+				69201A421A14603E00DAF4DE /* Component */,
+				69201A3D1A145FEE00DAF4DE /* Extension */,
 			);
 			path = HTTP;
-			sourceTree = "<group>";
-		};
-		69C0EFC91A0DF28B00A01FBF /* TMCache */ = {
-			isa = PBXGroup;
-			children = (
-				69C0EFCA1A0DF28B00A01FBF /* TMCache.h */,
-				69C0EFCB1A0DF28B00A01FBF /* TMCache.m */,
-				69C0EFCC1A0DF28B00A01FBF /* TMDiskCache.h */,
-				69C0EFCD1A0DF28B00A01FBF /* TMDiskCache.m */,
-				69C0EFCE1A0DF28B00A01FBF /* TMMemoryCache.h */,
-				69C0EFCF1A0DF28B00A01FBF /* TMMemoryCache.m */,
-			);
-			name = TMCache;
-			path = ../../../TMCache/TMCache;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,18 +350,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69C0EFD41A0DF2D900A01FBF /* ACCache.swift in Sources */,
-				69C0EFD61A0DF2E800A01FBF /* ACDiskCache.swift in Sources */,
-				698A98031A0F4D2A00B2C7AD /* ACHTTP.swift in Sources */,
-				69C0EFD11A0DF28B00A01FBF /* TMDiskCache.m in Sources */,
-				69C0EFD21A0DF28B00A01FBF /* TMMemoryCache.m in Sources */,
+				69201A3A1A145F4500DAF4DE /* UIColor+Acheron.swift in Sources */,
+				69201A351A145E7300DAF4DE /* ACView.swift in Sources */,
+				69201A411A14603100DAF4DE /* NSHTTPCookieStorage+Acheron.swift in Sources */,
+				69201A4B1A14611600DAF4DE /* ACMemoryCache.swift in Sources */,
+				69201A4A1A14611600DAF4DE /* ACDiskCache.swift in Sources */,
+				69201A491A14611600DAF4DE /* ACCache.swift in Sources */,
 				69C0EFA61A0DED7600A01FBF /* ViewController.swift in Sources */,
-				69C0EFD01A0DF28B00A01FBF /* TMCache.m in Sources */,
-				698A97FF1A0F4C0900B2C7AD /* Foundation+Acheron.swift in Sources */,
+				69201A381A145EFF00DAF4DE /* ACAlertView.swift in Sources */,
+				69201A441A14607C00DAF4DE /* ACHTTP.swift in Sources */,
+				69201A3F1A14601B00DAF4DE /* NSArray+Acheron.swift in Sources */,
 				69C0EFA41A0DED7600A01FBF /* AppDelegate.swift in Sources */,
 				698A97F71A0F4B5E00B2C7AD /* Acheron.swift in Sources */,
-				69C0EFD81A0DF2F900A01FBF /* ACMemoryCache.swift in Sources */,
-				698A97FA1A0F4B9900B2C7AD /* UIKit+Acheron.swift in Sources */,
+				69201A331A145E4A00DAF4DE /* ACViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

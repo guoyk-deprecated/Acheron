@@ -2,8 +2,12 @@
 //  ACHTTP.swift
 //  Acheron-Demo
 //
-//  Created by Yanke Guo on 14/11/9.
+//  Created by Yanke Guo on 14/11/13.
 //  Copyright (c) 2014年 Yanke Guo. All rights reserved.
 //
 
-import Foundation
+import Cocoa
+
+class ACHTTP: NSObject {
+
+}
